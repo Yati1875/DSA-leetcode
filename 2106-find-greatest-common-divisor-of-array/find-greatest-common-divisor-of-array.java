@@ -11,6 +11,9 @@ class Solution {
                 l=arr[i];
             }
         }
+        if(l%s==0){
+            return s;
+        }
         for(int i=1;i<=s;i++){
             if(s%i==0&&l%i==0){
                 max=i;
